@@ -1,0 +1,81 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navigation */
+header {
+  padding: 1rem;
+  background: #19162b;
+  color: #fff;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+}
+header ul {
+  text-align: center;
+}
+header a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration-line: none;
+  text-transform: uppercase;
+}
+/* end navigation */
+
+/* hero section */
+#hero {
+  background-image: url(../images/herobg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  padding: 6em;
+}
+#hero img {
+  border-radius: 50%;
+  width: 30%;
+  border: 10px solid rgba(255, 255, 255, 0.08);
+  display: block;
+  margin: auto;
+}
+#hero h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+#hero h1 span {
+  color: #d90368;
+}
+#hero p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+#bio img {
+  width: 25%;
+}
+/* hero section end */
+
+/* biography */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.item {
+  
+  padding: 20px;
+  text-align: center;
+}
+/* end biograhy */
