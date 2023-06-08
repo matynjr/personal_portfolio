@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component
+# HTML5 & CSS3 PORTFOLIO PROJECT
 
-![Design preview for the HTML5,CSS3 portfolio site](./design/desktop-preview.jpg)
+![Design preview for the HTML5,CSS3 portfolio site](./images/best-websites-2014.webp)
 
 ## Welcome! 👋
 
