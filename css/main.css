@@ -195,3 +195,33 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
 /* end portfolio section */
+
+/* footer section */
+footer{
+  background: #0f0007;
+color: #fff;
+padding: 1em 0;
+border-top: 1px solid #fff;
+text-align: center;
+}
+footer ul{
+  list-style: none;
+display: flex;
+}
+footer li{
+  padding: 20px;
+}
+footer i{
+  font-size: 3rem;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 14px;
+  height: 50px;
+width: 50px;
+}
+.social{
+  text-align: center;
+margin: 0 auto;
+display: inline-block;
+}
+/* end footer section */
