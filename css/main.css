@@ -96,10 +96,10 @@ header a {
   font-size: 16px;
 }
 #bio h3 {
-    font-size: 30px;
-    font-weight: 300;
-    color: #19162b;
-    text-decoration: underline;
+  font-size: 3rem;
+  font-weight: 300;
+  text-decoration: underline;
+  font-family: 'Tilt Prism', cursive;
 }
 
 #bio p {
@@ -157,6 +157,7 @@ color: #fff;
 text-decoration: underline;
 line-height: 9;
 padding-left: 57px;
+font-family: 'Tilt Prism', cursive;
 }
 .portfolio-section h3{
   font-size: 30px;
@@ -232,6 +233,11 @@ display: inline-block;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: url(../images/contactbg.jpg) rgb(33, 175, 241);
+    background-attachment: scroll;
+    background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 form {
@@ -282,9 +288,15 @@ button:hover {
 .contact-form h2{
   font-size: 3rem;
 font-weight: 300;
-color: #d90368;
+color: #0f0007;
 text-decoration: underline;
 line-height: 9;
 padding-right: 57px;
+font-family: 'Tilt Prism', cursive;
 }
 /* end contact */
+/* footer */
+footer a{
+  color: #fff;
+}
+/* endfooter */
