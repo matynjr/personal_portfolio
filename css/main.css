@@ -16,7 +16,7 @@ header {
   background: #d00867;
   color: #fff;
   position: fixed;
-  width: 100%;
+  width: 100vw;
 }
 header li {
   list-style: none;
@@ -318,6 +318,57 @@ footer a {
   .item {
     padding: 10px;
   }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  #bio img {
+    width: 78%;
+  }
+  header li {
+    display: block;
+    line-height: 1.5;
+  }
+  header {
+    padding: 0;
+  }
+  #bio {
+    height: auto;
+  }
+  .portfolio-section {
+    height: auto;
+  }
+  .portfolio-section h2 {
+    line-height: 2;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .card {
+    margin: 10px;
+
+    margin-top: 0;
+  }
+  .contact-form {
+    grid-template-columns: 1fr;
+    display: grid;
+    height: auto;
+  }
+  .contact-form h2 {
+    line-height: 2;
+    padding-right: 0px;
+    font-family: "Tilt Prism", cursive;
+    text-align: center;
+  }
+  #bio h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-decoration: underline;
+    font-family: "Tilt Prism", cursive;
+    text-align: center;
+  }
+  form {
+    width: auto;
+    margin: 2rem;
+  }
 }
 
 /* For mobile (landscape) */
@@ -351,9 +402,6 @@ footer a {
 }
 /* 
 For screen readers */
-
-@media speech {
-}
 
 /* Add Orientation as expression */
 
