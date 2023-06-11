@@ -15,6 +15,8 @@ header {
   padding: 1rem;
   background: #d00867;
   color: #fff;
+  position: fixed;
+  width: 100%;
 }
 header li {
   list-style: none;
@@ -39,12 +41,13 @@ header a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 70vh;
-  padding: 6em;
+  height: 100vh;
+
+  background-attachment: fixed;
 }
 #hero img {
   border-radius: 50%;
-  width: 30%;
+  width: 25%;
   border: 10px solid rgba(255, 255, 255, 0.08);
   display: block;
   margin: auto;
@@ -73,9 +76,15 @@ header a {
   padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.welcome {
+  padding-top: 10%;
+}
 /* hero section end */
 
 /* biography */
+#bio {
+  height: 100vh;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
@@ -83,8 +92,7 @@ header a {
 }
 
 .item {
-    padding: 120px;
-
+  padding: 120px;
 }
 #bio h2 {
   display: inline-block;
@@ -99,30 +107,29 @@ header a {
   font-size: 3rem;
   font-weight: 300;
   text-decoration: underline;
-  font-family: 'Tilt Prism', cursive;
+  font-family: "Tilt Prism", cursive;
 }
 
 #bio p {
   line-height: 2;
 }
 
-.more_bio button{
-    text-decoration: none;
-color: #fff;
-background-color: #d90368;
-display: inline-block;
-padding: 16px 45px;
-position: relative;
-overflow: hidden;
-border: navajowhite;
-border-radius: 50px;
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #d90368;
+  display: inline-block;
+  padding: 16px 45px;
+  position: relative;
+  overflow: hidden;
+  border: navajowhite;
+  border-radius: 50px;
 }
-.more_bio li{
+.more_bio li {
   list-style: none;
   padding-left: 0;
-  
 }
-.more_bio i{
+.more_bio i {
   color: #d90368;
 }
 /* end biograhy */
@@ -132,48 +139,47 @@ border-radius: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 5em 0;
-min-height: 500px;
-background: url(../images/herobg.jpg) rgb(33, 175, 241);
-background-size: cover;
-background-attachment: fixed;
-
+  background: url(../images/herobg.jpg) rgb(33, 175, 241);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
-.portfolio-section button{
+.portfolio-section button {
   text-decoration: none;
-color: #fff;
-background-color: #d90368;
-display: inline-block;
-padding: 16px 45px;
-position: relative;
-overflow: hidden;
-border: navajowhite;
-border-radius: 50px;
+  color: #fff;
+  background-color: #d90368;
+  display: inline-block;
+  padding: 16px 45px;
+  position: relative;
+  overflow: hidden;
+  border: navajowhite;
+  border-radius: 50px;
 }
-.portfolio-section h2{
+.portfolio-section h2 {
   font-size: 3rem;
-font-weight: 300;
-color: #fff;
-text-decoration: underline;
-line-height: 9;
-padding-left: 57px;
-font-family: 'Tilt Prism', cursive;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: underline;
+  line-height: 14;
+  padding-left: 57px;
+  font-family: "Tilt Prism", cursive;
 }
-.portfolio-section h3{
+.portfolio-section h3 {
   font-size: 30px;
-font-weight: 300;
-color: #fff;
-
+  font-weight: 300;
+  color: #fff;
 }
 .card {
-  background-color: rgba(217, 3, 104,0.5);
+  background-color: rgba(217, 3, 104, 0.5);
 
-text-align: center;
-border-radius: 10px;
-margin: 30px;
-border: 2px solid #fff;
-color: #fff;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 400px;
+  margin-top: 50%;
 }
 
 .card img {
@@ -182,7 +188,6 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  
 }
 
 .card h3 {
@@ -194,36 +199,35 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   line-height: 1.4;
 }
 
-
 /* end portfolio section */
 
 /* footer section */
-footer{
+footer {
   background: #0f0007;
-color: #fff;
-padding: 1em 0;
-border-top: 1px solid #fff;
-text-align: center;
+  color: #fff;
+  padding: 1em 0;
+  border-top: 1px solid #fff;
+  text-align: center;
 }
-footer ul{
+footer ul {
   list-style: none;
-display: flex;
+  display: flex;
 }
-footer li{
+footer li {
   padding: 20px;
 }
-footer i{
+footer i {
   font-size: 3rem;
   border: 2px solid #fff;
   border-radius: 50px;
   padding: 14px;
   height: 50px;
-width: 50px;
+  width: 50px;
 }
-.social{
+.social {
   text-align: center;
-margin: 0 auto;
-display: inline-block;
+  margin: 0 auto;
+  display: inline-block;
 }
 /* end footer section */
 
@@ -234,22 +238,22 @@ display: inline-block;
   align-items: center;
   height: 100vh;
   background: url(../images/contactbg.jpg) rgb(33, 175, 241);
-    background-attachment: scroll;
-    background-size: auto;
+  background-attachment: scroll;
+  background-size: auto;
   background-size: cover;
   background-attachment: fixed;
 }
 
 form {
   display: grid;
-grid-template-columns: 1fr;
-grid-gap: 20px;
-border: 1px solid #fff;
-border-radius: 10px;
-width: 30%;
-padding: 3rem;
-background: #0f0007;
-color: #fff;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 30%;
+  padding: 3rem;
+  background: #0f0007;
+  color: #fff;
 }
 
 .form-group {
@@ -285,18 +289,74 @@ button {
 button:hover {
   background-color: #0f0007;
 }
-.contact-form h2{
+.contact-form h2 {
   font-size: 3rem;
-font-weight: 300;
-color: #0f0007;
-text-decoration: underline;
-line-height: 9;
-padding-right: 57px;
-font-family: 'Tilt Prism', cursive;
+  font-weight: 300;
+  color: #0f0007;
+  text-decoration: underline;
+  line-height: 9;
+  padding-right: 57px;
+  font-family: "Tilt Prism", cursive;
 }
 /* end contact */
 /* footer */
-footer a{
+footer a {
   color: #fff;
 }
 /* endfooter */
+
+/* responsive design */
+/* For typical mobile devices */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .welcome {
+    padding-top: 40%;
+  }
+  #hero img {
+    width: 60%;
+  }
+  .item {
+    padding: 10px;
+  }
+}
+
+/* For mobile (landscape) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* For tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+}
+
+/* For small desktop */
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+}
+
+/* For typical desktop */
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+}
+
+/* For large desktop */
+
+@media only screen and (min-width: 1200px) {
+}
+
+/* For printers */
+
+@media print {
+}
+/* 
+For screen readers */
+
+@media speech {
+}
+
+/* Add Orientation as expression */
+
+@media only screen and (min-width: 1200px) and (orientation: portrait) {
+}
+/* end responsive design */
